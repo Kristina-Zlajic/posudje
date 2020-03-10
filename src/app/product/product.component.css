@@ -1,0 +1,70 @@
+.product {
+    width: 398px;
+    height: 490px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.product-photo {
+    width: 340px;
+    height: 340px;
+    background: transparent url('../slike/1408186_s (1).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.text {
+    width: 326px;
+    height: 58px;
+    text-align: left;
+    font: Regular 20px/24px Roboto;
+    letter-spacing: 0;
+    color: #7F7F7F;
+    opacity: 1;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.j-c-space-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    width: 149px;
+    height: 60px;
+    text-align: bottom;
+    font: Regular 30px/45px Roboto;
+    letter-spacing: 0;
+    color: #7F7F7F;
+    opacity: 1;
+}
+
+.button {
+    width: 185px;
+    height: 51px;
+    background: #DD137B 0% 0% no-repeat padding-box;
+    border-radius: 7px;
+    opacity: 1;
+    font: Medium 19px/12px Roboto;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.shopping-cart {
+    width: 23px;
+    height: 25px;
+    background: transparent url('../slike/shoppingcart.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

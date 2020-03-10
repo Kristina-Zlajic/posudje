@@ -1,0 +1,87 @@
+        .footer {
+            /* top: 3706px;
+        left: 0px; */
+            width: 100%;
+            height: 401px;
+            background: #000000 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        
+        #logo {
+            /* top: 3796px;
+        left: 173px; */
+            width: 50px;
+            height: 50px;
+            /* opacity: 1; */
+        }
+        
+        .logo {
+            padding: 30px;
+        }
+        
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .j-c-space-between {
+            justify-content: space-between;
+        }
+        
+        .j-c-space-around {
+            justify-content: space-around;
+        }
+        
+        .flex-start {
+            justify-content: start;
+        }
+        
+        .text-titles {
+            width: 143px;
+            height: 19px;
+            text-align: left;
+            font: Condensed 14px/12px Roboto;
+            letter-spacing: 0.28px;
+            color: #7F7F7F;
+            opacity: 1;
+        }
+        
+        .facebook {
+            content: "\f082";
+        }
+        
+        .info {
+            text-align: left;
+            font: Regular 15px/24px Open Sans;
+            letter-spacing: 0;
+            color: #FFFFFF;
+            opacity: 1;
+        }
+        
+        .pink {
+            color: #DD137B;
+        }
+        
+        .btn_color {
+            background-color: #DD137B;
+            color: white;
+        }
+        
+        .input {
+            background-color: black;
+            border-radius: 2;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .padding {
+            padding-top: 70px;
+            padding-left: 90px;
+        }
