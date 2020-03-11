@@ -1,0 +1,19 @@
+.body {
+    background-color: #EEEEEE;
+    width: 100%;
+}
+
+.box {
+    width: 490px;
+    height: 118px;
+    transform: rotate(-90deg);
+    background-color: #7F7F7F;
+}
+
+.izdvajamo-recepti {
+    text-align: center;
+    font: Bold Condensed 35px/20px Roboto;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 25px;
+}

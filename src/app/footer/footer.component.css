@@ -1,6 +1,4 @@
         .footer {
-            /* top: 3706px;
-        left: 0px; */
             width: 100%;
             height: 401px;
             background: #000000 0% 0% no-repeat padding-box;
@@ -8,11 +6,9 @@
         }
         
         #logo {
-            /* top: 3796px;
-        left: 173px; */
-            width: 50px;
-            height: 50px;
-            /* opacity: 1; */
+            width: 125px;
+            height: 100px;
+            opacity: 1;
         }
         
         .logo {
@@ -42,22 +38,16 @@
         }
         
         .text-titles {
-            width: 143px;
-            height: 19px;
             text-align: left;
-            font: Condensed 14px/12px Roboto;
+            font: Condensed 12px/8px Roboto;
             letter-spacing: 0.28px;
             color: #7F7F7F;
             opacity: 1;
         }
         
-        .facebook {
-            content: "\f082";
-        }
-        
         .info {
             text-align: left;
-            font: Regular 15px/24px Open Sans;
+            font: 12px/20px Open Sans;
             letter-spacing: 0;
             color: #FFFFFF;
             opacity: 1;
@@ -68,11 +58,15 @@
         }
         
         .btn_color {
+            height: 30px;
+            width: 70px;
             background-color: #DD137B;
             color: white;
         }
         
         .input {
+            height: 30px;
+            width: 120x;
             background-color: black;
             border-radius: 2;
         }
@@ -84,4 +78,8 @@
         .padding {
             padding-top: 70px;
             padding-left: 90px;
+        }
+        
+        .btn-padding {
+            padding-left: 10px;
         }

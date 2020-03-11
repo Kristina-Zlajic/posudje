@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductComponent } from './product/product.component';
-import { TheFirstPageComponent } from './the-first-page/the-first-page.component';
+import { DishBrandsComponent } from './dish-brands/dish-brands.component';
+import { BodyComponent } from './body/body.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { TheFirstPageComponent } from './the-first-page/the-first-page.component
     HeaderComponent,
     FooterComponent,
     ProductComponent,
-    TheFirstPageComponent
+    DishBrandsComponent,
+    BodyComponent,
+    RecipesComponent
   ],
   imports: [
     BrowserModule,
