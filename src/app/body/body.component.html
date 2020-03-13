@@ -1,31 +1,107 @@
-<div class="body d-flex align-items-center">
+<div class="body d-flex flex-column justify-content-around align-items-center">
 
-    <div class="box">
-        <p class="izdvajamo-recepti">I Z D V A J A M O</p>
+    <div class="d-flex flex-column justify-content-between width">
+
+        <div class=" d-flex flex-row justify-content-center">
+            <p class="title">Najveći izbor posuđa u Crnoj Gori</p>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-between">
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Kalupi</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Tiganji</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Servisi</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Aparati</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Posuđe</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Kuhinjski pribor</span></div>
+            </div>
+            <div>
+                <svg height="100" width="100">
+                <circle cx="50" cy="50" r="40" stroke="white" stroke-width="3" fill="#DD137B" />
+            </svg>
+                <div class="center"><span>Ostalo</span></div>
+            </div>
+
+
+
+
+        </div>
     </div>
-    <app-product></app-product>
-    <app-product></app-product>
-    <app-product></app-product>
 
-</div>
+    <div class="d-flex flex-column justify-content-between width">
+        <div class="d-flex flex-row align-items-center justify-content-between">
 
-<div class="body d-flex flex-row align-items-center justify-content-between">
+            <div class="box d-flex flex-column justify-content-center">
+                <div class="izdvajamo-recepti">
+                    I Z D V A J A M O
+                </div>
+            </div>
+            <app-product></app-product>
+            <app-product></app-product>
+            <app-product></app-product>
 
-    <div class="box">
-        <p class="izdvajamo-recepti">R E C E P T I</p>
+        </div>
+
+        <div class="d-flex flex-row justify-content-end">
+            <button class="btn-style">Pogledaj sve proizvode</button>
+        </div>
     </div>
-    <div class="d-flex flex-row justify-content-end">
-        <div>
+
+    <!-- the dish artical -->
+
+    <div class="d-flex flex-row width">
+        <div><img class="dish-img" src="assets/img/rec.jpg" alt=""></div>
+        <div class="text">
+            <div>
+                <p class="dishes-title-style">Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+            </div>
+            <div>
+                <p class="dishes-text-style">Lorem ipsum dolor sit amet, consectetur adipscing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="d-flex flex-column justify-content-between width">
+        <div class="d-flex flex-row align-items-center justify-content-between">
+
+            <div class="box d-flex flex-column justify-content-center">
+                <div class="izdvajamo-recepti">R E C E P T I</div>
+            </div>
+            <app-recipes></app-recipes>
+            <app-recipes></app-recipes>
             <app-recipes></app-recipes>
         </div>
-        <div>
-            <app-recipes></app-recipes>
+        <div class="d-flex flex-row justify-content-end">
+            <button class="btn-style">Pogledaj sve recepte</button>
         </div>
-        <!-- <div>
-            <app-recipes></app-recipes>
-        </div> -->
-
     </div>
-
 
 </div>

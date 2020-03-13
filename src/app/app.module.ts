@@ -8,6 +8,9 @@ import { ProductComponent } from './product/product.component';
 import { DishBrandsComponent } from './dish-brands/dish-brands.component';
 import { BodyComponent } from './body/body.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesPageComponent } from './recipes-page/recipes-page.component';
+import { ArticlePageComponent } from './article-page/article-page.component';
+import { RecipePageComponent } from './recipe-page/recipe-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { RecipesComponent } from './recipes/recipes.component';
     ProductComponent,
     DishBrandsComponent,
     BodyComponent,
-    RecipesComponent
+    RecipesComponent,
+    RecipesPageComponent,
+    ArticlePageComponent,
+    RecipePageComponent
   ],
   imports: [
     BrowserModule,
