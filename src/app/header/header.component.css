@@ -1,264 +1,61 @@
 #header {
-    top: 0px;
-    left: 0px;
-    width: 100%;
+    width: device-width;
     height: 190px;
     opacity: 0.95;
 }
 
 #logo {
-    /* position: absolute; */
     overflow: none;
-    top: 24px;
-    left: 173px;
-    width: 150px;
-    height: 125px;
-    background: transparent url("../slike/Layer 2.png") 0% 0% no-repeat padding-box;
+    width: 125px;
+    height: 100px;
     opacity: 1;
 }
 
-#broj {
-    position: absolute;
-    left: 451.668px;
-    top: 22px;
-    overflow: visible;
-    width: 130.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
-}
-
 #broj_icon {
-    top: 20px;
-    left: 417px;
-    width: 24px;
-    height: 24px;
-    background: transparent url("../slike/phone.png") 0% 0% no-repeat padding-box;
+    width: 18px;
+    height: 18px;
 }
 
-#email {
-    position: absolute;
-    left: 638.668px;
-    top: 22px;
-    overflow: hidden;
-    width: 138.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
+.text {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 12px;
     color: rgba(127, 127, 127, 1);
 }
 
 #email_icon {
-    top: 23px;
-    left: 606px;
-    width: 24px;
-    height: 18px;
-    background: transparent url("../slike/mail.png") 0% 0% no-repeat padding-box;
+    width: 18px;
+    height: 12px;
     opacity: 1;
-}
-
-#isporuka {
-    position: absolute;
-    left: 844.668px;
-    top: 22px;
-    overflow: hidden;
-    width: 269.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
 }
 
 #isporuka_icon {
-    top: 21px;
-    left: 801px;
-    width: 36px;
-    height: 22px;
-    background: transparent url("../slike/7.png") 0% 0% no-repeat padding-box;
+    width: 32px;
+    height: 18px;
     opacity: 1;
-}
-
-#profil {
-    position: absolute;
-    left: 1325px;
-    top: 23px;
-    overflow: visible;
-    width: 54.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
 }
 
 #profil_icon {
-    top: 21px;
-    left: 1297px;
-    width: 19px;
-    height: 23px;
-    background: transparent url("../slike/avatar.png") 0% 0% no-repeat padding-box;
+    width: 13px;
+    height: 17px;
     opacity: 1;
-}
-
-#omiljeni {
-    position: absolute;
-    left: 1430px;
-    top: 23px;
-    overflow: hidden;
-    width: 63.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
 }
 
 #omiljeni_icon {
-    top: 21px;
-    left: 1396px;
-    width: 25px;
-    height: 22px;
-    background: transparent url("../slike/heart.png") 0% 0% no-repeat padding-box;
+    width: 19px;
+    height: 16px;
     opacity: 1;
-}
-
-#korpa {
-    position: absolute;
-    left: 1551px;
-    top: 23px;
-    overflow: visible;
-    width: 48.333px;
-    height: 26.506px;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
 }
 
 #korpa_icon {
-    top: 19px;
-    left: 1518px;
-    width: 23px;
-    height: 25px;
-    background: transparent url("../slike/shoppingcart.png") 0% 0% no-repeat padding-box;
+    width: 17px;
+    height: 19px;
     opacity: 1;
-}
-
-#MNE {
-    position: absolute;
-    left: 1677px;
-    top: 21px;
-    overflow: visible;
-    width: 35px;
-    white-space: nowrap;
-    line-height: 30px;
-    margin-top: -7px;
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
 }
 
 #MNE_arrow {
-    top: 27px;
-    left: 1717px;
-    width: 13px;
-    height: 7px;
-    /* transform: matrix(0, 0, 0, 0, 0, 0); */
-    background: transparent url("../slike/next.png") 0% 0% no-repeat padding-box;
+    width: 9px;
+    height: 3px;
     opacity: 1;
-}
-
-#nasa-prodavnica {
-    position: absolute;
-    left: 415px;
-    top: 130px;
-    overflow: visible;
-    width: 146px;
-    white-space: nowrap;
-}
-
-#znanje_o_posudju {
-    position: absolute;
-    left: 595px;
-    top: 130px;
-    overflow: visible;
-    width: 144px;
-    white-space: nowrap;
-    /* --web-animation: fadein 0.3s ease-out;
-    --web-action-type: page;
-    --web-action-target: POSUDJE_ME___Znanje_o_posu_u.html; */
-    cursor: pointer;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
-}
-
-#recepti {
-    position: absolute;
-    left: 773px;
-    top: 130px;
-    overflow: visible;
-    width: 62px;
-    white-space: nowrap;
-    /* --web-animation: fadein 0.3s ease-out;
-    --web-action-type: page;
-    --web-action-target: POSUDJE_ME___Recepti.html; */
-    cursor: pointer;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1);
-}
-
-#kontakt {
-    position: absolute;
-    left: 869px;
-    top: 130px;
-    overflow: visible;
-    width: 73px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(127, 127, 127, 1)
 }
 
 .flex-row {
@@ -282,7 +79,6 @@
 .header {
     width: 100%;
     height: 190px;
-    /* background: transparent url('img/L2a.png') 0% 0% no-repeat padding-box; */
     background-color: #ffffff;
     box-shadow: 0px 3px 6px #00000029;
     opacity: 0.95;
@@ -290,4 +86,44 @@
 
 .logo {
     padding: 25px;
+}
+
+
+/* .background-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('src\assets\img\mepra-nordhorn-046.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: silver;
+} */
+
+.padding {
+    padding-right: 5px;
+}
+
+.center {
+    align-content: center;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    /* z-index: 2; */
+    display: block;
+    /* width: 2.375rem; */
+    /* height: 2.375rem; */
+    line-height: 2rem;
+    /* text-align: center; */
+    /* pointer-events: none; */
+    color: #aaa;
 }

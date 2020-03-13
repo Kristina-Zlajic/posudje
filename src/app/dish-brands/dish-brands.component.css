@@ -1,0 +1,21 @@
+.brands {
+    height: 305px;
+    background-color: rgb(216, 205, 205);
+}
+
+.block {
+    width: 175px;
+    height: 110px;
+    background-color: #FFFFFF;
+}
+
+.brands-logo {
+    opacity: 1;
+}
+
+#emo {
+    width: 169px;
+    height: 39px;
+}
+
+img {}
